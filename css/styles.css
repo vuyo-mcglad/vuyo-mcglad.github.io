@@ -1142,6 +1142,7 @@ textarea {
 
 .u-add-bottom {
     margin-bottom: var(--vspace-1);
+    text-align: center;
 }
 
 .u-no-border {
@@ -4474,6 +4475,7 @@ td:last-child {
     aspect-ratio: 1 / 1; /* or 1/1 for square, 16/9 for widescreen */
     overflow: hidden;
     display: block;
+    padding-bottom: 30px;
 }
 
 .entry__thumb img {
@@ -4481,4 +4483,12 @@ td:last-child {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+h3.text-subtitle {
+    font-weight: normal;
+    color: rgb(201, 63, 29);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 60px;
 }
