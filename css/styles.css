@@ -93,18 +93,18 @@
    * color-2(#2F352B)
    * color-3(#1A1A1A)
    */
-    --color-1: hsla(12, 75%, 45%, 1);
+    --color-1: hsla(0, 0%, 45%, 1);
     --color-2: hsla(96, 10%, 19%, 1);
     --color-3: rgb(0, 0, 0);
 
     /* theme color variations
    */
-    --color-1-lightest: hsla(12, 75%, 75%, 1);
-    --color-1-lighter: hsla(12, 75%, 65%, 1);
-    --color-1-light: hsla(12, 75%, 55%, 1);
-    --color-1-dark: hsla(12, 75%, 35%, 1);
-    --color-1-darker: hsla(12, 75%, 25%, 1);
-    --color-1-darkest: hsla(12, 75%, 15%, 1);
+    --color-1-lightest: hsla(0, 0%, 75%, 1);
+    --color-1-lighter: hsla(0, 0%, 65%, 1);
+    --color-1-light: hsla(0, 0%, 55%, 1);   
+    --color-1-dark: hsla(0, 0%, 35%, 1); 
+    --color-1-darker: hsla(0, 0%, 25%, 1);  
+    --color-1-darkest: hsla(0, 0%, 15%, 1); 
 
     --color-2-lightest: hsla(96, 10%, 49%, 1);
     --color-2-lighter: hsla(96, 10%, 39%, 1);
@@ -2970,7 +2970,7 @@ td:last-child {
 }
 
 .grid-block.grid-16 {
-    --col: 16;
+    --col: 15;
 }
 
 .grid-block .grid-full {
@@ -4486,8 +4486,12 @@ td:last-child {
 
 h3.text-subtitle {
     font-weight: normal;
-    color: rgb(201, 63, 29);
+    color: #474747;
     margin-top: 50px;
     margin-bottom: 5px;
     text-align: center;
+}
+
+.s-intro__content-title {
+    font-size: 45px;
 }
