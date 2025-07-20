@@ -79,7 +79,7 @@
 :root {
     --font-1: "Futura", "Trebuchet MS", Arial, sans-serif;
     --font-2: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-    
+
     /* monospace fallback */
     --font-mono: "Lucida Sans Typewriter", Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
@@ -101,10 +101,10 @@
    */
     --color-1-lightest: hsla(0, 0%, 75%, 1);
     --color-1-lighter: hsla(0, 0%, 65%, 1);
-    --color-1-light: hsla(0, 0%, 55%, 1);   
-    --color-1-dark: hsla(0, 0%, 35%, 1); 
-    --color-1-darker: hsla(0, 0%, 25%, 1);  
-    --color-1-darkest: hsla(0, 0%, 15%, 1); 
+    --color-1-light: hsla(0, 0%, 55%, 1);
+    --color-1-dark: hsla(0, 0%, 35%, 1);
+    --color-1-darker: hsla(0, 0%, 25%, 1);
+    --color-1-darkest: hsla(0, 0%, 15%, 1);
 
     --color-2-lightest: hsla(96, 10%, 49%, 1);
     --color-2-lighter: hsla(96, 10%, 39%, 1);
@@ -4490,8 +4490,15 @@ h3.text-subtitle {
     margin-top: 50px;
     margin-bottom: 5px;
     text-align: center;
+    padding: 20px;
 }
 
 .s-intro__content-title {
-    font-size: 45px;
+    font-size: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    .s-intro__content-title {
+        font-size: 45px;
+    }
 }
