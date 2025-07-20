@@ -3754,6 +3754,11 @@ td:last-child {
         font-size: clamp(4.2rem, 8.2vw, 8.8rem);
         color: white;
     }
+    /* hi title */
+    .s-intro__content-pretitle {
+        color: white;
+        display: none;
+    }
 
     .s-intro__content-title br {
         display: none;
